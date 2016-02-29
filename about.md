@@ -11,7 +11,6 @@ Some information about you!
 
 A place to include any other types of information that you'd like to include about yourself.
 
-{:.foo}
 ![makreel]({{ site.baseurl }}/images/makreel.jpg)
 
 ### Contact me
