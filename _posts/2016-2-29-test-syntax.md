@@ -4,9 +4,6 @@ title: Syntax
 --- 
 <h1>Contents</h1>
 
-{menu: {options: {descendants: true, levels: [2,6]}}}
---- name:content
-
 # kramdown Syntax
 
 This is version **<%= ::Kramdown::VERSION %>** of the syntax documentation.
