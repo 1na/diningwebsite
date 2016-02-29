@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 Some information about you!
-![gnocchi image]({{ site.baseurl }}/images/config.png)
+![gnocchi image]({{ site.baseurl }}/images/fifteen_gnocchi.jpg)
 
 ### More Information
 
