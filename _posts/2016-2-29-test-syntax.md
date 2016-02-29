@@ -2,7 +2,7 @@
 layout: post
 title: Syntax
 --- 
-<h1>Contents</h1>
+## Contents
 
 # kramdown Syntax
 
