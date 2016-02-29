@@ -18,9 +18,10 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background-image:url("/images/paper-bg.jpg");
+	background-color: $white;
+  	font: 18px/1.4 $helvetica;
+  	color: $darkGray;
 }
 
 .container {
