@@ -21,6 +21,7 @@ Lunch: vanaf 15 personen, alleen mogelijk op basis van reservering
 
 A place to include any other types of information that you'd like to include about yourself. and we can go on and on...
 
+{:.foo}
 ![makreel]({{ site.baseurl }}/images/makreel.jpg)
 
 ### Contact me
