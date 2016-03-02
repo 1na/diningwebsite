@@ -125,7 +125,7 @@ img {
   max-width: 100vw;
   display:block;
   position:relative;
-  left:calc(-(100vw-1080px)/2);
+  left:-100px;
 }
 
 // Fixes images in popup boxes from Google Translate
