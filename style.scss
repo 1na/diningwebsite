@@ -39,10 +39,7 @@ body {
   width: 100%;
 }
 
-.containerpage{
-  margin: auto;
-  max-width: 100%;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family:'Roboto',sans-serif;
@@ -79,7 +76,7 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin-left: calc((100vw - 1000px)/2);
 }
 
 a {
