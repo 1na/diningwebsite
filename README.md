@@ -71,6 +71,7 @@ You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-sta
 
 As of March 3, 2016
 - Update content
+- Update styles (input Gea)
 - Set up Google analytics
 - Make html insert for responsive images
 - Change mail address
@@ -79,6 +80,4 @@ As of March 3, 2016
 - Change header to remain visible on scroll down (just the navigation)
 - Link or insert reservation site
 - Set up direct phone call for mobile browsers
-- Update styles (input Gea)
-- 
-- 
+
