@@ -30,8 +30,7 @@ module.exports = function(grunt) {
             suffix: "_x2",  // retina gfx
             quality: 50
           },{
-            createNoScaledImage: true,
-            width: 1660,
+            width: 2000,
             name: "largest",
             quality: 50
             }]
