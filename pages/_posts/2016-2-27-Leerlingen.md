@@ -13,4 +13,4 @@ Wilt u meer weten over onze opleiding? Neem dan contact op via:
 
 A place to include any other types of information that you'd like to include about yourself. and we can go on and on...
 
-![makreel]({{ site.baseurl }}/images/makreel.jpg){: .wide-image }
+![makreel]({{ site.baseurl }}/build/img/makreel-largest.jpg){: .wide-image }
