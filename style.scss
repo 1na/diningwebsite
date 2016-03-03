@@ -124,10 +124,10 @@ img {
 .wide-image{
   max-width: 100vw;
   display:block;
-  /*position:relative;
-  left: calc((-50vw + 500px));*/
-  margin-left:auto;
-  margin-right:auto;
+  position:relative;
+  left: calc((-50vw + 500px));
+  /* margin-left:auto;
+  margin-right:auto; */
 }
 
 // Fixes images in popup boxes from Google Translate
