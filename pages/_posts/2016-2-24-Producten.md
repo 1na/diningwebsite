@@ -7,4 +7,4 @@ title: Producten
 
 We gebruiken zo veel mogelijk lokale produkten liefst van verantwoorde herkomst.
 
-![witlof]({{ site.baseurl }}/build/img/witlof-largest.jpg){: .wide-image }
+![pastinaak]({{ site.baseurl }}/build/img/pastinaak (1)-2000.jpg){: .wide-image }
