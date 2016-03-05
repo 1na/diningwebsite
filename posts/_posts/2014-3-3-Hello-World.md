@@ -3,7 +3,7 @@ layout: post
 title: You're up and running!
 ---
 
-Changed this. This is the first in a series of posts on absolutely delicious food. Like this, so do we.
+Again I changed  this as of now. This is the first in a series of posts on absolutely delicious food. Like this, so do we.
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
 

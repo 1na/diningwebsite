@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Syntax
---- 
-## Contents
+---
+## Contents and more
 
-# kramdown Syntax
+# kramdown Syntax extended
 
 This is version **<%= ::Kramdown::VERSION %>** of the syntax documentation.
 
