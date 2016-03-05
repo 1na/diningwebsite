@@ -14,24 +14,20 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-        width: 110,
-            name: "small",
+            width: 110,
             quality: 40
           },{
             width: 220,
             quality: 100
           },{
             width: 330,
-            name: "large",
             quality: 80
           },{
             width: 660,
-            name: "large",
             suffix: "_x2",  // retina gfx
             quality: 50
           },{
             width: 2000,
-            name: "largest",
             quality: 50
             }]
         },
