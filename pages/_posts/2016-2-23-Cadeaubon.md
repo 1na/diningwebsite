@@ -9,4 +9,5 @@ Een feestje cadeau doen, dat kan. U kunt een cadeaubon van 20 of 50 euro bij ons
 
 De cadeaubon dient vooraf betaald te worden op bankrekeningnummer:  NLxx xx xxx xxx o.n.v. Sixes in Apeldoorn. Zodra wij uw betaling binnen hebben, wordt de bon per post verstuurd.
 
-![Fruisalade]({{ site.baseurl }}/build/img/Fruitsalade-2000.jpg){: .wide-image }
+{% include wide_img.html src="Fruitsalade.jpg" alt="Fruitsalade" %}
+

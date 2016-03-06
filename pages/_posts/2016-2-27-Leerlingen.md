@@ -13,4 +13,5 @@ Wilt u meer weten over onze opleiding? Neem dan contact op via:
 
 A place to include any other types of information that you'd like to include about yourself. and we can go on and on...
 
-![spaghetti]({{ site.baseurl }}/build/img/spaghetti-2000.jpg){: .wide-image }
+{% include wide_img.html src="spaghetti.jpg" alt="spaghetti" %}
+
