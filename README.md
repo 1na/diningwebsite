@@ -73,7 +73,6 @@ As of March 3, 2016
 - Update content
 - Update styles (input Gea)
 - Set up Google analytics
-- Make html insert for responsive images
 - Change mail address
 - Include google maps
 - Extend navigation
