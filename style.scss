@@ -14,22 +14,18 @@
 /**************/
 
 html {
-  font-size: 100%;
+  font-size: 11px;
 }
 
 body {
 	background-image:url("build/img/paper-crop.jpg");
 	background-color: $white;
-
-	font-family: 'Lato', sans-serif;
-  	letter-spacing:0.21em;
-  	line-height:1.3em;
-  	font-size: 0.75rem;
-/*	font-size:11px;
-	font-weight:400;
-	text-decoration:none */
-/*  font: 18px/1.4 $helvetica; */
-  	color: $darkGray;
+	font-family: $verdana;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18px;
+	color: $darkGray;
 }
 
 .container {
@@ -42,11 +38,9 @@ body {
 
 
 h1, h2, h3, h4, h5, h6 {
-  font-family:'Roboto',sans-serif;
+  font-family:$verdana_ss;
   color: $darkerGray;
-  font-weight: bold;
-
-  line-height: 1.7;
+/*  line-height: 1.7; */
   margin: 1em 0 15px;
   padding: 0;
 
@@ -56,35 +50,36 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 18px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 16px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 14px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 12px;
   color: $gray;
 }
 
 p {
   margin: 15px 0;
+  font-size:11px;
 }
 
 a {
-  color: $blue;
+  color: $zz_green;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $zz-gold;
   }
 }
 
@@ -119,15 +114,6 @@ strong, b {
 
 img {
   max-width: 100%;
-}
-
-.wide-image{
-  max-width: 100vw;
-  display:block;
-  position:relative;
-  left: calc((-50vw + 500px));
-  /* margin-left:auto;
-  margin-right:auto; */
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -217,9 +203,9 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $zz_magenta;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $verdana_ss;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -227,7 +213,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $zz_green;
   font-size: 16px;
 
   @include mobile {
@@ -238,14 +224,12 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
   }
 
   a {
@@ -257,7 +241,7 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $zz_gold;
     }
   }
 }
@@ -282,7 +266,6 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
     font-style: italic;
   }
 
@@ -292,7 +275,6 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
   }
 }
 
@@ -300,7 +282,7 @@ nav {
   margin-top: 50px;
   border-top: 2px solid #ddd;
   border-bottom: 2px solid #ddd;
-  background-color: $lightGray;
+  background-color: $zz_lmagenta;
 }
 
 footer {
