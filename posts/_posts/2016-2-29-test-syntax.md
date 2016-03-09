@@ -1,84 +1,36 @@
 ---
 layout: post
-title: Syntax
+title: Recept
 ---
-## Contents and more
 
-# kramdown Syntax extended
+Vandaag een recept voor soep van pastinaak, een heerlijk licht zoeten en anijsachtige 
+groente. 
 
-This is version **<%= ::Kramdown::VERSION %>** of the syntax documentation.
+{{ site.name }}-koks Rita en Bianca vinden het leuk om af en toe een recept te delen dat 
+regelmatig op de (lunch) kaart van Zenzez Dining te vinden is. 
 
-The kramdown syntax is based on the Markdown syntax and has been enhanced with features that are
-found in other Markdown implementations like [Maruku], [PHP Markdown Extra] and [Pandoc]. However,
-it strives to provide a strict syntax with definite rules and therefore isn't completely compatible
-with Markdown. Nonetheless, most Markdown documents should work fine when parsed with kramdown. All
-places where the kramdown syntax differs from the Markdown syntax are highlighted.
+Vandaag onze PASTINAAKSOEP om thuis te maken:
 
-Following is the complete syntax definition for all elements kramdown supports. Together with the
-documentation on the available converters, it is clearly specified what you will get when a kramdown
-document is converted.
+De pastinaak is de voorganger van onze winterwortel. De lange witte wortel heeft 
+een zoetig, op anijs lijkende smaak. De wortel is iets minder stevig dan een 
+winterwortel. Voor pastinaaksoep heb je nodig:
 
+Hoeveelheid   |   eenheid  |   ingredieënt
+|------:|:-------|:-------|
+1 | kilo |pastinaken
+2 | stuks | uien
+25 |  gram | roomboter
+ | | groentebouillon 
+ | scheut | witte wijn
+1⁄2 | dl | room
 
-## Source Text Formatting
+Bereiding: Pastinaken schillen met een dunschiller en in stukken snijden. 
+Uien pellen en fijnsnijden. In pan boter verhitten en uien paar minuten zachtjes 
+bakken. Pastinaken toevoegen en 5 minuten zachtjes meebakken. Water toevoegen 
+tot alles net onder staat. Aan de kook brengen en alles in ongeveer 20 minuten 
+gaarkoken. Soep even laten afkoelen en pureren met staafmixer. Soep mag dik 
+vloeibaar zijn. Voeg zoveel water toe tot de gewenste dikte. Soep op smaak 
+brengen met groentebouillon, scheutje wijn en peper. Room door soep roeren.
+Lekker om de soep te serveren met eenstukje geroosterd brood of soepstengel. 
 
-A kramdown document may be in any encoding, for example ASCII, UTF-8 or ISO-8859-1, and the output
-will have the same encoding as the source.
-
-The document consists of two types of elements, block-level elements and span-level elements:
-
-* Block-level elements define the main structure of the content, for example, what part of the text
-  should be a paragraph, a list, a blockquote and so on.
-
-* Span-level elements mark up small text parts as, for example, emphasized text or a link.
-
-Thus span-level elements can only occur inside block-level elements or other span-level elements.
-
-You will often find references to the "first column" or "first character" of a line in a block-level
-element descriptions. Such a reference is always to be taken relative to the current indentation
-level because some block-level elements open up a new indentation level (e.g. blockquotes). The
-beginning of a kramdown document opens up the default indentation level which begins at the first
-column of the text.
-
-
-### Line Wrapping
-
-Some lightweight markup syntax don't work well in environments where lines are hard-wrapped. For
-example, this is the case with many email programs. Therefore kramdown allows content like
-paragraphs or blockquotes to be hard-wrapped, i.e. broken across lines. This is sometimes referred
-to as "lazy syntax" since the indentation or line prefix required for the first line of content is
-not required for the consecutive lines.
-
-Block-level elements that support line wrapping always end when one of the following conditions is
-met:
-
-* a [blank line](#blank-lines), an [EOB marker line](#eob-marker), a [block IAL](#block-ials) or the
-  end of the document (i.e. a [block boundary](#block-boundaries)),
-
-*  or an [HTML block](#html-blocks).
-
-Line wrapping is allowed throughout a kramdown document but there are some block-level elements that
-do *not* support being hard-wrapped:
-
-[headers](#headers)
-
-: This is not an issue in most situations since headers normally fit on one line. If a header text
-  gets too long for one line, you need to use HTML syntax instead.
-
-[fenced code blocks](#fenced-code-blocks)
-
-: The delimiting lines of a fenced code block do not support hard-wrapping. Since everything between
-  the delimiting lines is taken as is, the content of a fenced code block does also not support
-  hard-wrapping.
-
-[definition list terms](#definition-lists)
-
-: Each definition term has to appear on a separate line. Hard-wrapping would therefore introduce
-  additional definition terms. The definitions themselves, however, do support hard-wrapping.
-
-[tables](#tables)
-
-: Since each line of a kramdown table describes one table row or a separator, it is not possible to
-  hard-wrap tables.
-
-**Note** that it is **NOT** recommended to use lazy syntax to write a kramdown document. The
-flexibility that the kramdown syntax offers due to the issue of line wrapping hinders readability
+Ook lekker: druppel voor het serveren wat hazelnoot-olie over de soep.

@@ -5,7 +5,7 @@ titel: Leerlingen
 
 ### Leerlingen
 
-Sixes biedt jongeren die voor grote uitdagingen hebben gestaan een kans om hun leven een andere wending te geven. We bieden een opleiding aan tot kok (mbo diploma niveau 2) met veel ruimte voor extra persoonlijke aandacht.
+{{ site.name }} biedt jongeren die voor grote uitdagingen hebben gestaan een kans om hun leven een andere wending te geven. We bieden een opleiding aan tot kok (mbo diploma niveau 2) met veel ruimte voor extra persoonlijke aandacht.
 
 Daarnaast is de opleiding zo ingericht dat onze leerlingen unieke productkennis opdoen. Zo gaan ze bijvoorbeeld ieder jaar naar boederij waar ze twee dagen meewerken op het land en in de stallen.
 
