@@ -5,7 +5,7 @@
 // IMPORTS
 //
 
-@import "reset";
+// @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background-image:url("build/img/paper-crop.jpg");
+	background-image:url("build/img/images/fixed/paper-bg.jpg");
 	background-color: $white;
 	font-family: $verdana;
 	font-style: normal;
@@ -316,5 +316,5 @@ thead {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
+// @import "highlights";
 @import "svg-icons";

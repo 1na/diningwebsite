@@ -15,20 +15,20 @@ module.exports = function(grunt) {
           engine: 'im',
           sizes: [{
             width: 375,
-            quality: 20
+            quality: 30
           },{
             width: 800,
-            quality: 20
+            quality: 30
           },{
             width: 2000,
             suffix: "_x2",  // retina gfx
-            quality: 20
+            quality: 30
           },{
             width: 2000,
-            quality: 20
+            quality: 50
             },{
             width: 4000,
-            quality: 20
+            quality: 50
             }]
         },
         files: [{
@@ -64,12 +64,61 @@ module.exports = function(grunt) {
         }]
       },
     },
+    
+    /* Copy the "fixed" images that don't go through processing into the images/directory */
+    copy2: {
+      dev: {
+        files: [{
+          expand: false,
+          src: 'build/compressed/*.{gif,jpg,png}',
+          dest: 'build/img/'
+        }]
+      },
+    },
+ 
+  imagemin: {
+    png: {
+      options: {
+        optimizationLevel: 7
+      },
+      files: [
+        {
+          // Set to true to enable the following options…
+          expand: true,
+          // cwd is 'current working directory'
+          cwd: 'build/img/',
+          src: ['**/*.png'],
+          // Could also match cwd line above. i.e. project-directory/img/
+          dest: 'build/compressed/',
+          ext: '.png'
+        }
+      ]
+    },
+    jpg: {
+      options: {
+        progressive: true
+      },
+      files: [
+        {
+          // Set to true to enable the following options…
+          expand: true,
+          // cwd is 'current working directory'
+          cwd: 'build/img/',
+          src: ['**/*.jpg'],
+          // Could also match cwd. i.e. project-directory/img/
+          dest: 'build/compressed/',
+          ext: '.jpg'
+        }
+      ]
+    }
+  }
   });
   
+  grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
+  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images', 'imagemin', 'clean', 'copy2' ]);
 
 };
