@@ -14,21 +14,21 @@ module.exports = function(grunt) {
         options: {
           engine: 'im',
           sizes: [{
-            width: 110,
-            quality: 40
+            width: 375,
+            quality: 20
           },{
-            width: 220,
-            quality: 100
-          },{
-            width: 330,
-            quality: 80
-          },{
-            width: 660,
-            suffix: "_x2",  // retina gfx
-            quality: 50
+            width: 800,
+            quality: 20
           },{
             width: 2000,
-            quality: 50
+            suffix: "_x2",  // retina gfx
+            quality: 20
+          },{
+            width: 2000,
+            quality: 20
+            },{
+            width: 4000,
+            quality: 20
             }]
         },
         files: [{
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
     copy: {
       dev: {
         files: [{
-          expand: true,
+          expand: false,
           src: 'images/fixed/*.{gif,jpg,png}',
           dest: 'build/img/'
         }]
