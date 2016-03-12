@@ -27,7 +27,6 @@ Edit `/pages/_posts/2016-3-1-Sixes.md` to publish your first blog post. This [Ma
 > You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/pages/_posts/` or in `/posts/_posts/` (for you blog) to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
 
 
-
 ## Jekyll Now Features
 
 ✓ Command-line free _fork-first workflow_, using GitHub.com to create, customize and post to your blog  
@@ -74,9 +73,11 @@ As of March 3, 2016
 - Update styles (input Gea)
 - Set up Google analytics
 - Change mail address
-- Include google maps
 - Extend navigation
 - Change header to remain visible on scroll down (just the navigation)
-- Link or insert reservation site
+- Link or insert reservation site, watch out their applet is huge
 - Set up direct phone call for mobile browsers
+- check twitter feed and rss feed
+- separate into mini scss for above the fold
+- include caching
 
