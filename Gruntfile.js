@@ -77,48 +77,57 @@ module.exports = function(grunt) {
     },
  
   imagemin: {
-    png: {
-      options: {
-        optimizationLevel: 7
+      png: {
+          options: {
+              optimizationLevel: 7
+          },
+          files: [{
+              // Set to true to enable the following options…
+              expand: true,
+              // cwd is 'current working directory'
+              cwd: 'build/img/',
+              src: ['**/*.png'],
+              // Could also match cwd line above. i.e. project-directory/img/
+              dest: 'build/compressed/',
+              ext: '.png'
+          }]
       },
-      files: [
-        {
-          // Set to true to enable the following options…
-          expand: true,
-          // cwd is 'current working directory'
-          cwd: 'build/img/',
-          src: ['**/*.png'],
-          // Could also match cwd line above. i.e. project-directory/img/
-          dest: 'build/compressed/',
-          ext: '.png'
-        }
-      ]
-    },
-    jpg: {
+      jpg: {
+          options: {
+              progressive: true
+          },
+          files: [{
+              // Set to true to enable the following options…
+              expand: true,
+              // cwd is 'current working directory'
+              cwd: 'build/img/',
+              src: ['**/*.jpg'],
+              // Could also match cwd. i.e. project-directory/img/
+              dest: 'build/compressed/',
+              ext: '.jpg'
+          }]
+      }
+  },
+  criticalcss: {
+    custom: {
       options: {
-        progressive: true
-      },
-      files: [
-        {
-          // Set to true to enable the following options…
-          expand: true,
-          // cwd is 'current working directory'
-          cwd: 'build/img/',
-          src: ['**/*.jpg'],
-          // Could also match cwd. i.e. project-directory/img/
-          dest: 'build/compressed/',
-          ext: '.jpg'
-        }
-      ]
+            url: "http://localhost:4000",
+            width: 1200,
+            height: 900,
+            outputfile: "_sass/_critical.scss",
+            filename: "_site/style.css", // Using path.resolve( path.join( ... ) ) is a good idea here
+            buffer: 800*1024,
+            ignoreConsole: false
+      }
     }
   }
   });
-  
+  grunt.loadNpmTasks('grunt-criticalcss');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images', 'imagemin', 'clean', 'copy2' ]);
+  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images', 'imagemin', 'clean', 'copy2', 'criticalcss' ]);
 
 };
