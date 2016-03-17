@@ -7,7 +7,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
-        {% include critical.css %}
+        {% include critical.html %}
     </style>
 <script>
     var cb = function() {
@@ -24,7 +24,7 @@
 </script>
 <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
-  <body>
+<body class="w3-container">
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -34,10 +34,15 @@
 <!---            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>  -->
             <p class="site-description">{{ site.description }}</p>
           </div>
-
+            <!-- @include mobile {
+                <nav>
+                <p style="display:inline;">
+                    <button class="w3-btn  w3-large" style="background-color:#FF00FF;"><a href="{{ site.baseurl }}/">Home</a><i class="w3-margin-left material-icons">home</i></button><button class="w3-btn  w3-large" style="background-color:#FF00FF;"><a href="{{ site.baseurl }}/blog">Blog</a><i class="w3-margin-left material-icons">cloud</i></button><button class="w3-btn  w3-large" style="background-color:#FF00FF;">Phone<i class="w3-margin-left material-icons">phone</i></button>
+                </p>
+            </nav>
+          } -->
           <nav>
-            <a href="{{ site.baseurl }}/">Intro</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/blog">Blog</a>
           </nav>
         </header>
