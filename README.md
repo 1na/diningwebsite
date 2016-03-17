@@ -78,6 +78,4 @@ As of March 3, 2016
 - Link or insert reservation site, watch out their applet is huge
 - Set up direct phone call for mobile browsers
 - check twitter feed and rss feed
-- separate into mini scss for above the fold
-- include caching
-
+- restrict google api key to doomain
