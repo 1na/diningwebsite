@@ -114,7 +114,7 @@ module.exports = function(grunt) {
             url: "http://localhost:4000",
             width: 1200,
             height: 900,
-            outputfile: "_sass/_critical.scss",
+            outputfile: "_includes/_critical.html",
             filename: "_site/style.css", // Using path.resolve( path.join( ... ) ) is a good idea here
             buffer: 800*1024,
             ignoreConsole: false
