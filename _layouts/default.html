@@ -9,31 +9,45 @@
     <style>
         {% include critical.html %}
     </style>
-<script>
-    var cb = function() {
-        var l = document.createElement('link');
-        l.rel = 'stylesheet';
-        l.href = '{{ site.baseurl }}/style.css';
-        var h = document.getElementsByTagName('head')[0];
-        h.parentNode.insertBefore(l, h);
-    };
-    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-        webkitRequestAnimationFrame || msRequestAnimationFrame;
-    if (raf) raf(cb);
-    else window.addEventListener('load', cb);
-</script>
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  </head>
-<body class="w3-container">
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+    <!-- link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" -->
+    <script>
+        var cb = function() {
+            var l = document.createElement('link');
+            l.rel = 'stylesheet';
+            l.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
+            var h = document.getElementsByTagName('head')[0];
+            h.parentNode.insertBefore(l, h);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
+    <script>
+        var cb = function() {
+            var l = document.createElement('link');
+            l.rel = 'stylesheet';
+            l.href = '{{ site.baseurl }}/style.css';
+            var h = document.getElementsByTagName('head')[0];
+            h.parentNode.insertBefore(l, h);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(cb);
+        else window.addEventListener('load', cb);
+    </script>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    </head>
+    <body class="w3-container">
+        <div class="wrapper-masthead">
+            <div class="container">
+                <header class="masthead clearfix">
+                    <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <div class="site-info">
-<!---            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>  -->
-            <p class="site-description">{{ site.description }}</p>
-          </div>
+                    <div class="site-info">
+<!---                   <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>  -->
+                            <p class="site-description">{{ site.description }}</p>
+                    </div>
             <!-- @include mobile {
                 <nav>
                 <p style="display:inline;">
@@ -41,17 +55,17 @@
                 </p>
             </nav>
           } -->
-          <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+                  <nav>
+                    <a href="{{ site.baseurl }}/">Home</a>
+                    <a href="{{ site.baseurl }}/blog">Blog</a>
+                  </nav>
+                </header>
+            </div>
+        </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+        <div id="main" role="main" class="container">
+          {{ content }}
+        </div>
     <div class="container">
       <div class="wrapper-footer">
         <footer class="footer">
