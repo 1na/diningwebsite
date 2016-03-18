@@ -30,9 +30,9 @@
             var h = document.getElementsByTagName('head')[0];
             h.parentNode.insertBefore(l, h);
         };
-        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+        var raf2 = requestAnimationFrame || mozRequestAnimationFrame ||
             webkitRequestAnimationFrame || msRequestAnimationFrame;
-        if (raf) raf(cb2);
+        if (raf2) raf2(cb2);
         else window.addEventListener('load', cb2);
     </script>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
