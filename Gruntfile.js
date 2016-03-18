@@ -128,6 +128,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images', 'imagemin', 'clean', 'copy2', 'criticalcss' ]);
+  grunt.registerTask('default',['clean', 'mkdir', 'copy', 'responsive_images', 'imagemin', 'clean']);
+  grunt.registerTask('criticalcss')
 
 };
