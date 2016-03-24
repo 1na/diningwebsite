@@ -41,9 +41,12 @@ module.exports = function(grunt) {
     },
     /* Clear out the images directory if it exists */
     clean: {
-      dev: {
+      prim: {
         src: ['build/img'],
       },
+      sec: {
+        src: ['build/compressed']
+      }
     },
     /* Generate the images directory if it is missing */
     mkdir: {
@@ -56,26 +59,28 @@ module.exports = function(grunt) {
 
     /* Copy the "fixed" images that don't go through processing into the images/directory */
     copy: {
-      dev: {
-        files: [{
-          expand: false,
+      prim: {
+        files:
+        [{
+          expand: true,
+          flatten: true,
           src: 'images/fixed/*.{gif,jpg,png}',
-          dest: 'build/img/'
+          dest: 'build/img/',
+          filter:'isFile'
+        }]
+      },
+      sec: {
+        files: [{
+          expand: true,
+          flatten: true,
+          src: 'build/compressed/*.{gif,jpg,png}',
+          dest: 'build/img/',
+          filter: 'isFile'
         }]
       },
     },
     
-    /* Copy the "fixed" images that don't go through processing into the images/directory */
-    copy2: {
-      dev: {
-        files: [{
-          expand: false,
-          src: 'build/compressed/*.{gif,jpg,png}',
-          dest: 'build/img/'
-        }]
-      },
-    },
- 
+  /* minimize the file size, lossless */
   imagemin: {
       png: {
           options: {
@@ -128,7 +133,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default',['clean', 'mkdir', 'copy', 'responsive_images', 'imagemin', 'clean']);
-  grunt.registerTask('criticalcss')
-
+  grunt.registerTask('default',['clean', 'mkdir', 'copy:prim', 'responsive_images', 'imagemin', 'clean:prim', 'copy:sec', 'clean:sec']);
+  grunt.registerTask('criticalcss');
 };
