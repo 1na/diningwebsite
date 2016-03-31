@@ -7,6 +7,6 @@ category: posts
 
 Seems to work just fine.
 
-contents | amount
+| contents | amount
 |---:|---
 | one | two
