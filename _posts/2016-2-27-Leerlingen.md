@@ -1,6 +1,7 @@
 ---
 layout: page
 titel: Leerlingen
+category: pages
 ---
 
 ### Leerlingen
@@ -9,7 +10,7 @@ titel: Leerlingen
 
 Daarnaast is de opleiding zo ingericht dat onze leerlingen unieke productkennis opdoen. Zo gaan ze bijvoorbeeld ieder jaar naar boederij waar ze twee dagen meewerken op het land en in de stallen.
 
-Wilt u meer weten over onze opleiding? Neem dan contact op via: 
+Wilt u meer weten over onze opleiding? Neem dan contact op via:
 
 A place to include any other types of information that you'd like to include about yourself. and we can go on and on...
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: You're up and running!
+category: posts
 ---
 
 Again I changed  this as of now. This is the first in a series of posts on absolutely delicious food. Like this, so do we.
