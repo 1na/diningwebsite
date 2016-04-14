@@ -7,7 +7,7 @@
 
 //@import "reset";
 @import "variables";
-@import "w3";
+// @import "w3";
 // Syntax highlighting @import is at the bottom of this file
 
 
@@ -234,27 +234,78 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-
+  margin-top: 23px; 
+  font-family: $helveticaNeue;
+  font-size: 18px;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
+  font-size: 16px;
   }
 
   a {
-    margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
-      margin: 0 10px;
+      // margin: 0 10px;
       color: $zz_gold;
     }
   }
+}
+
+.flnav {
+  display:none;
+  @include mobile{
+    margin: 0 auto; 
+    position: fixed;
+    left:  0;
+    right: 0;
+    top: 0;
+    display: none;
+    width: 450px;
+    opacity: 0.5;
+    font-family: $helveticaNeue;
+    font-size: 18px;
+  }
+}
+.flnav ul {
+  @include mobile{
+    display: inline-block;
+    margin: 1px;
+    padding: 16px 0 16px 0;
+    list-style: none;
+    /*background-color: gray;*/
+  }
+}
+.flnav li a {
+  @include mobile{
+    text-decoration:none;
+    margin: 0;
+  }
+}
+
+.w3-mystyle{
+  border:none;
+  outline:0;
+  padding:6px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none !important;
+  color:#fff;
+  background-color:#000;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  font-size:18px;
+  border:0 !important;
+  color:#000 !important;
+  background-color:#fff !important;
+  border-radius:16px !important;
 }
 
 //
@@ -325,6 +376,16 @@ td, th {
 thead {
   border-bottom-width: 1 px bold;
 }
+
+//w3 styles
+.w3-btn-block{width:100%}
+.w3-large{font-size:18px !important}
+.w3-border{border:1px solid #ccc !important}
+.w3-round{border-radius:4px !important}
+.w3-round-xlarge{border-radius:8px !important}
+.w3-xlarge{font-size:24px !important}
+.w3-btn,.w3-btn-block{border:none;display:inline-block;outline:0;padding:6px 16px;vertical-align:middle;overflow:hidden;text-decoration:none !important;color:#fff;background-color:#000;text-align:center;cursor:pointer;white-space:nowrap}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
