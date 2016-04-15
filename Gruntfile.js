@@ -125,13 +125,26 @@ module.exports = function(grunt) {
             ignoreConsole: false,
       }
     }
+  },
+  uglify: {
+    options: {
+      mangle: false
+    },
+    my_target: {
+      files: {
+        'build/jquery-1.10.2.js': ['_includes/_jquery-1.10.2.js']
+      }
+    }
   }
   });
+  grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-criticalcss');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default',['clean', 'mkdir', 'copy:prim', 'responsive_images', 'imagemin', 'clean:prim', 'copy:sec', 'clean:sec'], 'criticalcss');
+  grunt.registerTask('default',['clean', 'mkdir', 'copy:prim', 'responsive_images', 'imagemin', 'clean:prim', 'copy:sec', 'clean:sec']);
+  grunt.registerTask('critical', 'criticalcss');
+  grunt.registerTask('ugly', 'uglify')
 };
