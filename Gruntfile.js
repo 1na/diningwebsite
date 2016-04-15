@@ -122,7 +122,7 @@ module.exports = function(grunt) {
             outputfile: "_includes/_critical.html",
             filename: "_site/style.css", // Using path.resolve( path.join( ... ) ) is a good idea here
             buffer: 800*1024,
-            ignoreConsole: false
+            ignoreConsole: false,
       }
     }
   }
@@ -133,6 +133,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default',['clean', 'mkdir', 'copy:prim', 'responsive_images', 'imagemin', 'clean:prim', 'copy:sec', 'clean:sec']);
-  grunt.registerTask('criticalcss');
+  grunt.registerTask('default',['clean', 'mkdir', 'copy:prim', 'responsive_images', 'imagemin', 'clean:prim', 'copy:sec', 'clean:sec'], 'criticalcss');
 };

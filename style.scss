@@ -28,7 +28,7 @@ html {
 }
 
 body {
-	background-image:url("build/img/paper-bg.jpg");
+	background-image:url("{{baseurl}}/build/img/paper-bg.jpg");
 	background-color: $white;
 	font-family: $verdana;
 	font-style: normal;
@@ -41,7 +41,6 @@ body {
 .container {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 0 10px;
   width: 100%;
 }
 
@@ -256,6 +255,12 @@ nav {
       color: $zz_gold;
     }
   }
+  button {
+    display: none;
+    @include mobile{
+      display: inline-block;
+    }
+  }
 }
 
 .flnav {
@@ -268,7 +273,7 @@ nav {
     top: 0;
     display: none;
     width: 450px;
-    opacity: 0.5;
+    opacity: 0.7;
     font-family: $helveticaNeue;
     font-size: 18px;
   }
@@ -291,6 +296,7 @@ nav {
 
 .w3-mystyle{
   border:none;
+  opacity: 0.7;
   outline:0;
   padding:6px 16px;
   vertical-align:middle;

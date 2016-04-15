@@ -15,7 +15,7 @@ avatar: /build/img/Zenzez_Dining_logo_gold_green_pos_fc-800.png
 # Flags below are optional
 #
 
-phone: 06 222222 2 2
+phone: +31 6 222 14 654
 
 # Includes an icon in the footer for each username you enter
 footer-links:
@@ -44,7 +44,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: 
 imgurl: /build/img/
 
 # If you're hosting your site at a Project repository on GitHub pages

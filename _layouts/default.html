@@ -7,7 +7,7 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
-        {% include critical.html %}
+        {% include _critical.html %}
     </style>
     <!--next script needed for navbar scroll-->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -46,19 +46,19 @@
                     <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
                     <div class="site-info">
-<!---                 <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>  -->
+                      <!--<h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>  -->
                       <p class="site-description">{{ site.description }}</p>
                     </div>
                   <nav>
-                    <button class="w3-mystyle"style="opacity:0.4;">
-                    <a href="{{ site.baseurl }}/">
+                    <button class="w3-mystyle" >
+                    <a href="{{ site.baseurl }}/#map">
                     <i class="material-icons">place
                     </i>
                     </a>
                     </button>
                     <a href="{{ site.baseurl }}/">Home</a>
                     <a href="{{ site.baseurl }}/blog">Blog</a>
-                    <button class="w3-mystyle" style="opacity:0.4;">
+                    <button class="w3-mystyle" >
                     <a href="tel:{{ site:phone }}">
                     <i class="material-icons">phone
                     </i>
@@ -68,17 +68,13 @@
                   <div id="flnav" class="flnav">
                     <ul id="innernav">
                       <button class="w3-mystyle">
-                      <a href="{{ site.baseurl }}/">
+                      <a href="{{ site.baseurl }}/#map">
                       <i class="material-icons">place
                       </i>
                       </a>
                       </button>
-                      <a href="{{ site.baseurl }}/intro">
-                        Intro
-                      </a>
-                      <a href="{{ site.baseurl }}/index">
-                        Blog
-                      </a>
+                      <a href="{{ site.baseurl }}/">Home</a>
+                      <a href="{{ site.baseurl }}/blog">Blog</a>
                       <button class="w3-mystyle">
                       <a href="tel:{{ site:phone }}">
                       <i class="material-icons">phone
