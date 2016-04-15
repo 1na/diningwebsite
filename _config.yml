@@ -44,7 +44,11 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
+<<<<<<< HEAD
 url: blog.firstnet.nl/
+=======
+url: blog.firstnet.nl
+>>>>>>> cb45afb3db6ca4f9274cd9077ee28efb55d4eef6
 imgurl: /build/img/
 
 # If you're hosting your site at a Project repository on GitHub pages
