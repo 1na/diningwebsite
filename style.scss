@@ -40,8 +40,9 @@ body {
 
 .container {
   margin: 0 auto;
+  padding: 0 16px;
   max-width: 1000px;
-  width: 100%;
+  width: calc(100% - 32px);
 }
 
 
@@ -312,6 +313,22 @@ nav {
   color:#000 !important;
   background-color:#fff !important;
   border-radius:16px !important;
+}
+
+.share-page {
+    text-align: center;
+    // color: $light-color;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5px  0;
+
+    a {
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
 }
 
 //
