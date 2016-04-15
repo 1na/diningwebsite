@@ -45,7 +45,7 @@ google_analytics:
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 
-url: http://blog.firstnet.nl
+url: http&#58//blog.firstnet.nl
 
 imgurl: /build/img/
 
