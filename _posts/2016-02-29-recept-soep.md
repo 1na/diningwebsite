@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recept
+title: Recept voor soep van Pastinaak
 category: posts
 ---
 
