@@ -8,5 +8,5 @@ category: pages
 
 We gebruiken zo veel mogelijk lokale produkten liefst van verantwoorde herkomst.
 
-{% include wide_img.html src="pastinaak.jpg" alt="Image of pastinaak" %}
+{% include img.html src="IMG_20160324_111418434.jpg" alt="Afbeelding van producten" %}
 

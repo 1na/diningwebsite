@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Cadeaubon
-category: pages
+category: none
 ---
 
 ### CADEAUBON
