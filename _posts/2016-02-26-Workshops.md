@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Workshops
-category: pages
+category: none
 ---
 
 ### WORKSHOPS
