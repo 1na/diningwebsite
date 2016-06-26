@@ -13,27 +13,16 @@
  div#rm_reservation {
   width:239px;
 }
-div.rm_reservation_top {
-  background:transparent url(../images/srm/srm-top.png) no-repeat scroll 0 0;
-  float: left;
-  width: 239px;
-  height: 11px;
-}
-div.rm_reservation_bottom {
-  background:transparent url(../images/srm/srm-bottom.png) no-repeat scroll 0 0;
-  float: left;
-  width: 239px;
-  height: 11px;
-}
+
 div.rm_reservation_body {
+  position: relative;
   float: right;
   width: 235px;
   height: auto;
-  border-left:solid 1px #cccccc;
-  border-right:solid 1px #cccccc;
+  border: solid 1px $zz_gold;
   padding:1px;
   text-align: center;
-  background-color:#ffffff;
+  border-radius: 25px;
 }
 div#rm_wrapper {
   width: 100%;
@@ -123,7 +112,7 @@ div.rm_reservation_body div#rm_logo_wrapper {
   float:left;
   width:100%;
   line-height:24px;
-  height:17px;
+  height:33px;
   font-size:11px;
 }
 div#rm_logo_wrapper a.rm_logo {
