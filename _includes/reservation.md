@@ -1,6 +1,4 @@
 ### Reserveren bij {{ site.name }} Lounge & Dining:
-
-<div id="rm_reservation" class="section-content" align="center">
   <div class="rm_reservation_top" style="text-align: center; "></div>
   <div class="rm_reservation_body">
     <p style="text-align: center; ">
@@ -26,4 +24,3 @@
     </div>
   </div>
   <div class="rm_reservation_bottom" style="text-align: center; "></div>
-</div>
