@@ -1,5 +1,3 @@
-### Reserveren bij {{ site.name }} Lounge & Dining:
-  <div class="rm_reservation_top" style="text-align: center; "></div>
   <div class="rm_reservation_body">
     <p style="text-align: center; ">
       <!--style from SeatMe-->
