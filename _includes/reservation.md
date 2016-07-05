@@ -392,4 +392,3 @@
       </noscript>
     </div>
   </div>
-  <div class="rm_reservation_bottom" style="text-align: center; "></div>
