@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Sixes
+name: Zenzez Dining
 
 # Short bio or description (displayed in the header)
-description: Sixes Dining, food with passion.
+description: Zenzez Dining, food with passion.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /build/img/Zenzez_Dining_logo_gold_green_pos_fc-800.png
@@ -15,15 +15,15 @@ avatar: /build/img/Zenzez_Dining_logo_gold_green_pos_fc-800.png
 # Flags below are optional
 #
 
-phone: +31 6 222 14 654
+phone: +31 55 5222433
 
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: commerce.chaillet@gmail.com
+  email: info@zenzezdining.nl
   facebook: zenzezdining
   flickr:
-  github: 1na/1na.github.io
+  github:
   instagram:
   linkedin:
   pinterest:
@@ -32,7 +32,7 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  phone: +31 6 222222245
+  phone: +31 55 5222433
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
