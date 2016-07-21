@@ -25,7 +25,7 @@ div.rm_reservation_body {
   border-radius: 25px;
 }
 div#rm_wrapper {
-  width: 100%;
+//   width: 100%;
 }
 div#rm_form_wrapper {
   width: 100%;
@@ -136,3 +136,124 @@ a.rm_page {
   margin: 20px 0;
   display: block;
 }
+
+/* calendar start */
+div.jcalendar, div#jcalendar 
+{
+    font-family: Arial,Helvetica,sans-serif;
+    border: 2px solid #336699;
+    float:left;
+    position:relative;
+    z-index: 99999999;
+    width:182px;
+    display:none;
+    left: 0;
+    top: 0px;
+}
+
+.giftcard-date .div.jcalendar, .giftcard-date div#jcalendar 
+{
+    font-family: Arial,Helvetica,sans-serif;
+    border: 2px solid #336699;
+    float:left;    
+    position:absolute;
+    z-index: 99999999;
+    width:182px;
+    display:none;
+    left: 0;
+    top: 0px;
+}
+
+table#calendar tr#jcalendar-links 
+{
+    background-color:#94bde3;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    width: 182px;
+}
+table#calendar tr#jcalendar-links td 
+{
+    background-color:#94bde3;
+    border:none;
+    border-bottom:1px #ffffff solid;
+}
+table#calendar tr#jcalendar-links td#month 
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 25px;
+    border-left:none;
+    border-right:none;
+    width: 130px;
+}
+table#calendar tr#jcalendar-links a.left 
+{
+    background-image: url("http://www.seatme.nl/images/calender/month_left.png");
+    text-decoration:none;
+    width:18px;
+    height:25px;
+    float:left;
+    padding: 0;
+}
+table#calendar tr#jcalendar-links a.right 
+{
+    background-image: url("http://www.seatme.nl/images/calender/month_right.png");
+    text-decoration:none;
+    width:18px;
+    height:25px;
+    float:right;
+    padding: 0;
+}
+table#calendar tr#days td 
+{
+    background: none repeat scroll 0 0 #EAF2FA;
+    border: medium none;
+    color: #97C0E6;
+    font-size: 11px;
+    font-weight:bold;
+    height: 25px;
+    text-transform: lowercase;
+}
+table#calendar tr td 
+{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+    border-left: 1px solid #E0E0E0;
+    font-size: 11px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    text-align: center;
+    width: 25px;
+}
+table#calendar tr td.inactive 
+{
+    color:#CCCCCC;
+}
+table#calendar tr td.active a 
+{
+    color: #336699 !important;
+    font-weight:bold;
+    text-decoration:none;
+    width:100%;
+    height:100%;
+    float:left;
+}
+table#calendar tr td.selected 
+{
+    background-color: #b0d36f;
+    color:#FFFFFF !important;
+    font-weight:bold;
+}
+table#calendar tr td.selected a 
+{
+    color:#FFFFFF !important;
+    font-weight:bold;
+    text-decoration:none;
+}
+table#calendar tr td.editval a {background:url("../images/calender/edit-selected.gif") no-repeat scroll 0 0 transparent;color: #336699 !important;} 
+/* calendar end */
