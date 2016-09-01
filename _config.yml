@@ -56,7 +56,7 @@ imgurl: /build/img/
 baseurl: ""
 
 # If you want the indexers to follow you define some value below (such as yes)
-robots:
+robots: yes
 
 #
 # !! You don't need to change any of the configuration flags below !!
