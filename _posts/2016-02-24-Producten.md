@@ -4,8 +4,6 @@ title: Producten
 category: pages
 ---
 
-### Producten
-
 We gebruiken zo veel mogelijk dagverse lokale produkten die zoveel mogelijk seizoensgebonden zijn, liefst van verantwoorde herkomst. Huisgemaakt is hier een vanzelfsprekendheid: van chutneys to desserts en gebak tot crackers. 
 
 De huisgemaakte taarten, koekjes, chutneys en jams zijn ook te koop voor thuis.
