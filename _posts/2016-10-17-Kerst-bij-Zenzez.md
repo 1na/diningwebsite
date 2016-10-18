@@ -12,3 +12,5 @@ Eerste en tweede kerstdag kunt u bij ons genieten van een 4-gangen verrassings k
 Wij ontvangen u graag tussen 12-13 uur met een glas prosecco.
 Voor reserveringen bel <a href="tel:{{ site:phone }}">{{ site.phone }}</a><a href="tel:{{ site:phone }}"><i class="w3-margin-left material-icons">phone</i></a> of online op <a  href="{{ site.baseurl }}/Reserveren/index.html" target="_ blank">Seatme.nl</a>.
 Bij reserveren graag uw dieetwensen en allergieën doorgeven.
+
+{% include img.html src="ZENZEZWINTERSFEER.jpg" alt="Wintersfeer" %}
