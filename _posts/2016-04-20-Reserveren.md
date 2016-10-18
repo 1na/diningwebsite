@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: reservation
 title: Reserveren
 category: pages
 ---
