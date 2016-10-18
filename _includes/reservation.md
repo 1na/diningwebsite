@@ -8,13 +8,13 @@
         </p>
         <div id="rm_wrapper">
             <!-- this is the script which generates the form -->
-            <script language="javascript" type="text/javascript" src="http://www.seatme.nl/srm/?rid=4865&af=2774&lang=nl"></script>
+            <script language="javascript" type="text/javascript" src="https://www.seatme.nl/srm/?rid=4865&af=2774&lang=nl"></script>
             <noscript>
                 <div id="rm_form_wrapper">
                     <h1 class="rm_header">Zenzez Dining</h1>
                     <div class="rm_box_wrapper">
                         <div class="rm_gray_box">
-                            <a class="rm_page" href="http://www.seatme.nl/restaurant/4865/apeldoorn/centrum/zenzez_dining.htm"> Maak een reservering bij Zenzez Dining</a>
+                            <a class="rm_page" href="https://www.seatme.nl/restaurant/4865/apeldoorn/centrum/zenzez_dining.htm"> Maak een reservering bij Zenzez Dining</a>
                         </div>
                     </div>
                 </div>
