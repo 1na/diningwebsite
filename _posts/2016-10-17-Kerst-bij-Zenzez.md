@@ -15,3 +15,4 @@ Voor reserveringen bel <a href="tel:{{ site:phone }}">{{ site.phone }}</a><a hre
 Bij reserveren graag uw dieetwensen en allergieën doorgeven.
 
 {% include img.html src="ZENZEZWINTERSFEER.jpg" alt="Wintersfeer" %}
+ 
