@@ -13,7 +13,7 @@ description: Zenzez Dining, food with passion.
 avatar: /build/img/Zenzez_Dining_logo_gold_green_pos_fc-800.png
 
 # Default image to use in open graph when no image is on the page
-default_image: ZENZEZ SEMIFREDDO EN DESSERTWIJN.jpg
+image: ZENZEZ SEMIFREDDO EN DESSERTWIJN.jpg
 
 #
 # Flags below are optional

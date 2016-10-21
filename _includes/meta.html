@@ -50,7 +50,7 @@
     {% if page.image %}
       <meta property="og:image" content="{{ site.url }}{{ site.imgurl }}{{ page.image | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" />
     {% else %}
-      <meta property="og:image" content="{{ site.url }}{{ site.imgurl }}{{ page.image | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" />
+      <meta property="og:image" content="{{ site.url }}{{ site.imgurl }}{{ site.image | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" />
     {% endif %}
 
     {% if page.categories %}
