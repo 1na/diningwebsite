@@ -16,11 +16,11 @@
 
     {% if page.title %}
         <meta property="og:title" content="{{ page.title }}" />
-        <meta property="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:title" content="{{ page.title }}" />
         <meta property="og:type" content="article" />
     {% else %}
         <meta property="og:title" content="{{ site.title }}" />
-        <meta property="twitter:title" content="{{ site.title }}" />
+        <meta name="twitter:title" content="{{ site.title }}" />
         <meta property="og:type" content="website" />
     {% endif %}
 
