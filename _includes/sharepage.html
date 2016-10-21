@@ -7,8 +7,9 @@
     &display=popup&amp;caption={{page.title}} 
     &link={{ site.url }}{{ post.url }}
     &redirect_uri={{ site.url }}{{ post.url }}
-    &description={{ post.excerpt}}
-    &picture={{ site.url }}{{ site.imgurl }}{{ page.img }}" rel="nofollow" target="_blank" title="Share on Facebook">Facebook demo</a>
+    &description={{ page.excerpt | remove: '<p>' | remove: '</p>' }}
+    &picture={{ site.url }}{{ site.imgurl }}{{ page.fbimage | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" 
+    rel="nofollow" target="_blank" title="Share on Facebook">Facebook demo</a>
     <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Google+">Google+</a>
     <a href="whatsapp://send?text={{ site.url }}{{ page.url }}" data-action="share/whatsapp/share" title="Share on Whatsapp">Whatsapp</a>
 </div>
