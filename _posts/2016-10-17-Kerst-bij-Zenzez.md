@@ -2,6 +2,7 @@
 layout: post
 title: Kerst bij Zenzez Dining
 category: posts
+image: ZENZEZWINTERSFEER.jpg
 ---
 
 Reserveer tijdig. Vol is vol.

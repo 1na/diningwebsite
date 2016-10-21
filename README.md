@@ -51,4 +51,4 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 
 As of October 20, 2016
 - check twitter feed and rss feed
-
+- move fb og into production, change app_id in Yaml
