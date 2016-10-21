@@ -37,4 +37,4 @@ Lekker om de soep te serveren met eenstukje geroosterd brood of soepstengel.
 
 Ook lekker: druppel voor het serveren wat hazelnoot-olie over de soep.
 
-{% include img.html src="patstinaak.jpg" alt="Pastinaak" %}
+{% include img.html src="pastinaak.jpg" alt="Pastinaak" %}
