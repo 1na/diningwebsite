@@ -79,7 +79,7 @@ module.exports = function(grunt) {
         }]
       },
     },
-    
+
   /* minimize the file size, lossless */
   imagemin: {
       png: {
@@ -144,7 +144,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
+  grunt.loadNpmTasks('grunt-newer');
   grunt.registerTask('default',['clean', 'mkdir', 'copy:prim', 'responsive_images', 'imagemin', 'clean:prim', 'copy:sec', 'clean:sec']);
   grunt.registerTask('critical', 'criticalcss');
-  grunt.registerTask('ugly', 'uglify')
+  grunt.registerTask('ugly', 'uglify');
+  grunt.registerTask('respimg', ['newer:responsive_images']);
+  grunt.registerTask('imgmin', ['newer:imagemin']);
 };
