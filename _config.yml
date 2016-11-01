@@ -46,6 +46,7 @@ disqus:
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
 google_analytics: UA-83530861-1
 fb_app_id: 1176671095745756
+google_search: wv9VnMsRMfLyisq7VrqSGLRycRJbUHGDFVBgyEygY4Y
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
