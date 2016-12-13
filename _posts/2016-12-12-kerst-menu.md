@@ -7,7 +7,7 @@ image: ZENZEZ_BUBBELS-KERST.jpg
 
 Kerstavond, 24 december, serveren wij een 5-gangen verrassings-kerstdiner voor € 65,00 p.p. en een bijpassend wijnarrangement voor €&nbsp;25,00 p.p. Wij ontvangen u graag tussen 18-19 uur in onze sfeervolle lounge in kerstsfeer. Graag van te voren reserveren.
 
- <center> KERSTMENU 2016 <br><br>
+ <center> <a href="../build/asset/kerstmenu2016.pdf"  target="_blank">KERSTMENU 2016</a><br><br>
 
  KERSTAMUSE <br><br>
 
