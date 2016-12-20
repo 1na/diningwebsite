@@ -14,6 +14,12 @@
 
     <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
 
+    <meta name="twitter:card" content="summary_large_image" />
+    {% if site.twitter %}
+    <meta name="twitter:site" content="@{{ site.twitter }}" />
+    <meta name="twitter:creator" content="@{{ site.twitter }}" />
+    {% endif %}
+
     <meta name="author" content="{{ site.name }}" />
 
     {% if page.title %}
@@ -28,9 +34,11 @@
 
     {% if page.excerpt %}
         <meta name="description" content="{{ page.excerpt| strip_html }}" />
+        <meta name="twitter:description" content="{{ page.excerpt| strip_html }}" />
         <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
     {% else %}
         <meta name="description" content="{{ site.description }}" />
+        <meta name="twitter:description" content="{{ site.description }}" />
         <meta property="og:description" content="{{ site.description }}" />
     {% endif %}
 
@@ -51,8 +59,10 @@
 
     {% if page.image %}
       <meta property="og:image" content="{{ site.url }}{{ site.imgurl }}{{ page.image | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" />
+      <meta name="twitter:image" content="{{ site.url }}{{ site.imgurl }}{{ page.image | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" />
     {% else %}
       <meta property="og:image" content="{{ site.url }}{{ site.imgurl }}{{ site.image | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" />
+      <meta name="twitter:image" content="{{ site.url }}{{ site.imgurl }}{{ site.image | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}" />
     {% endif %}
 
     {% if page.categories %}
