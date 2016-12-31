@@ -9,6 +9,7 @@ Wij zijn geopend voor:
 
 + Diner, van woensdag t/m vrijdag vanaf 17:30 - 19:00 uur voor een 3-gangen diner, en op zaterdag vanaf 17:30 - 19:30.
 + Lunch, van donderdag t/m zondag van 12:00 - 17:00 uur voor koffie, taart, lunches, high wine, high tea en high gin and tonic.
++ 1 januari 2017 zijn wij gesloten. 
 
 De high wine, high tea en high gin and tonic alleen op reservering en minimaal een dag van te voren.
 
