@@ -8,3 +8,4 @@ Gemfile.lock
 package.json
 .zedstate
 renbserve.sh
+node_modules

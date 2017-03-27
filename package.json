@@ -1,0 +1,39 @@
+{
+  "name": "renbweb",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-uglify": "^2.1.0",
+    "grunt-criticalcss": "^2.1.0",
+    "grunt-mkdir": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "grunt-responsive-images": "^1.10.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1na/1na.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "restaurant",
+    "renb"
+  ],
+  "author": "Louis chaillet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1na/1na.github.io/issues"
+  },
+  "homepage": "https://github.com/1na/1na.github.io#readme"
+}
