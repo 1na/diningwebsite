@@ -1,7 +1,7 @@
 ---
 layout: reservation
 title: Reserveren
-category: pages
+category: _pages
 ---
 
 {% include reservation.md %}
