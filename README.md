@@ -1,3 +1,6 @@
+# Decomissioned
+The website that this was written for has been decomissioned.
+
 # Fork of Jekyll now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
