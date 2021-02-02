@@ -59,10 +59,14 @@ install node.js
 
 install npm (package manager)
 
-install grunt
+install grunt with
+
+'npm install -g grunt-cli'
+
+Use this guide for an existing project:
+[Existing Grunt project](https://gruntjs.com/getting-started#working-with-an-existing-grunt-project)
 
 
-install grunt
 
 ## To Do
 
