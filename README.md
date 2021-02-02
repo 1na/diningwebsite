@@ -49,6 +49,20 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
 - [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
 
+# Build and test locally
+
+## install node, node package manager and grunt
+
+Install nvm (node version mananger)
+
+install node.js
+
+install npm (package manager)
+
+install grunt
+
+
+install grunt
 
 ## To Do
 
