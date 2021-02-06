@@ -12,7 +12,7 @@ In plaats van een High Tea Royale kunt u ook kiezen voor een speciale moederdag 
 
 Uiteraard geven wij op verzoek een wijnadvies bij de proeverij. Graag van tevoren reserveren.
 
-Voor reserveringen bel <a href="tel:{{ site:phone }}">{{ site.phone }}</a><a href="tel:{{ site:phone }}"><i class="w3-margin-left material-icons">phone</i></a> of online op <a  href="{{ site.baseurl }}/Reserveren/index.html" target="_ blank">Seatme.nl</a>.
+Voor reserveringen bel <a href="tel:{{ site.phone }}">{{ site.phone }}</a><a href="tel:{{ site.phone }}"><i class="w3-margin-left material-icons">phone</i></a> of online op <a  href="{{ site.baseurl }}/Reserveren/index.html" target="_ blank">Seatme.nl</a>.
 Bij reserveren graag uw dieetwensen en allergieën doorgeven.
 
 {% include img.html src="moederdag.jpg" alt="Afbeelding van gebak" %}

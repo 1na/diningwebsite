@@ -30,7 +30,7 @@ kokos en zoete melk, omhuld met chocolade-couverture. Ook meringues horen bij
 de high tea. Op aanvraag kunnen we ook met andere dieetwensen en allergieën
 rekening houden.
 
-Voor reserveringen bel <a href="tel:{{ site:phone }}">{{ site.phone }}</a><a href="tel:{{ site:phone }}"><i class="w3-margin-left material-icons">phone</i></a> of online op <a  href="{{ site.baseurl }}/Reserveren/index.html" target="_ blank">Seatme.nl</a>.
+Voor reserveringen bel <a href="tel:{{ site.phone }}">{{ site.phone }}</a><a href="tel:{{ site.phone }}"><i class="w3-margin-left material-icons">phone</i></a> of online op <a  href="{{ site.baseurl }}/Reserveren/index.html" target="_ blank">Seatme.nl</a>.
 Bij reserveren graag uw dieetwensen en allergieën doorgeven. We willen graag dat
 u met ons overlegt want we hebben wel beperkingen, zo bereiden we alles in dezelfde ruimte.
 

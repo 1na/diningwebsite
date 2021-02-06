@@ -12,7 +12,7 @@ Heeft u iets te vieren  dan komen wij graag bij u thuis koken. U kunt dan heerli
 U kunt bij ons ook taarten bestellen en afhalen. Zoals de beroemde gekarameliseerde walnoottaart of een huisgemaakte chocoladetaart met abrikozenmoes en chocoladeganache. Ook high teas' kunt u bestellen en afhalen. Heeft u een voedselintolerantie of allergie dan kunnen wij hier rekening mee houden bij de bereiding want we bakken alles zelf in onze Zenzez keuken. Bel ons en bespreek de mogelijkheden.
 
 
-Voor bestellingen en informatie bel <a href="tel:{{ site:phone }}">{{ site.phone }}</a><a href="tel:{{ site:phone }}"><i class="w3-margin-left material-icons">phone</i></a> {% if site.footer-links.email %}
+Voor bestellingen en informatie bel <a href="tel:{{ site.phone }}">{{ site.phone }}</a><a href="tel:{{ site.phone }}"><i class="w3-margin-left material-icons">phone</i></a> {% if site.footer-links.email %}
 of mail ons via: <a href="mailto:{{ site.footer-links.email }}?Subject=Information" target="_top">{{ site.footer-links.email }}</a>
 {% endif %}.
 
