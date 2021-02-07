@@ -66,7 +66,9 @@ install grunt with
 Use this guide for an existing project:
 [Existing Grunt project](https://gruntjs.com/getting-started#working-with-an-existing-grunt-project)
 
+Ruby
 
+Downgraded to ruby 2.7.2 because of persistent errors with 3.0.
 
 ## To Do
 

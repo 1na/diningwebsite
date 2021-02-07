@@ -8,26 +8,6 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     /* Copy the "fixed" images that don't go through processing into the images/directory */
-    copy: {
-      prim: {
-        files: 
-        [{ expand: true,
-          flatten: true,
-          src: ['images/fixed/*.gif', 'images/fixed/*.jpg', 'images/fixed/*.png'],
-          dest: 'build/img',
-          filter: 'isFile'
-        }],
-      },
-      sec: {
-        files: 
-        [{ expand: true,
-          flatten: true,
-          src: ['build/compressed/*.{gif,jpg,png}'],
-          dest: 'build/img/',
-          filter: 'isFile'
-        }],
-      },
-    },
     responsive_images: {
       dev: {
         options: {
@@ -60,10 +40,10 @@ module.exports = function(grunt) {
     },
     /* Clear out the images directory if it exists */
     clean: {
-      prim: {
+      img: {
         src: ['build/img'],
       },
-      sec: {
+      compr: {
         src: ['build/compressed']
       },
     },
@@ -75,13 +55,33 @@ module.exports = function(grunt) {
         },
       },
     },
+    copy: {
+      fix: {
+        files: 
+        [{ expand: true,
+          flatten: true,
+          src: ['images/fixed/*.gif', 'images/fixed/*.jpg', 'images/fixed/*.png'],
+          dest: 'build/img',
+          filter: 'isFile'
+        }],
+      },
+      compr: {
+        files: 
+        [{ expand: true,
+          flatten: true,
+          src: ['build/compressed/*.{gif,jpg,png}'],
+          dest: 'build/img/',
+          filter: 'isFile'
+        }],
+      },
+    },
     /* minimize the file size, lossless */
     imagemin: {
       png: {
         options: {
             optimizationLevel: 7
         },
-        files: {
+        files: [{
             // Set to true to enable the following options…
             expand: true,
             // cwd is 'current working directory'
@@ -90,13 +90,13 @@ module.exports = function(grunt) {
             // Could also match cwd line above. i.e. project-directory/img/
             dest: 'build/compressed/',
             ext: '.png'
-        }
+        }],
       },
       jpg: {
         options: {
             progressive: true
         },
-        files: {
+        files: [{
             // Set to true to enable the following options…
             expand: true,
             // cwd is 'current working directory'
@@ -105,8 +105,8 @@ module.exports = function(grunt) {
             // Could also match cwd. i.e. project-directory/img/
             dest: 'build/compressed/',
             ext: '.jpg'
-        }
-      }
+        }],
+      },
     },
     criticalcss: {
       custom: {
@@ -140,9 +140,9 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
   grunt.loadNpmTasks('grunt-newer');
-  grunt.registerTask('default',['clean', 'mkdir',  'responsive_images', 'imagemin', 'copy:prim', 'clean:prim', 'copy:sec', 'clean:sec']); // 
+  grunt.registerTask('default',['mkdir', 'responsive_images', 'imagemin', 'clean:img', 'copy:fix', 'copy:compr', 'clean:compr']); // 
   grunt.registerTask('critical', 'criticalcss');
-  grunt.registerTask('cpprim', 'copy:prim');
+  grunt.registerTask('cpfix', 'copy:fix');
   grunt.registerTask('ugly', 'uglify');
   grunt.registerTask('respimg', ['newer:responsive_images']);
   grunt.registerTask('imgmin', ['newer:imagemin']);
