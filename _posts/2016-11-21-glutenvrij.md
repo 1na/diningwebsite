@@ -5,11 +5,11 @@ category: posts
 image: ZENZEZ_HIGH_TEA.jpg
 ---
 
-Op aanvraag kunt u bij Zenzez Dining ook van een glutenvrije high tea genieten.
+Op aanvraag kunt u bij ons Dining ook van een glutenvrije high tea genieten.
 Met passie maken wij alle gebak zelf, of u een dieet of allergie heeft of niet.
 U kunt alles met ons overleggen. De high tea serveren wij altijd in drie gangen.
 U kunt ook kiezen voor onze high tea royale, die start met een glas Prosecco en is
-uitgebreider. De Zenzez high tea is € 19,50, de Zenzez high tea royale is
+uitgebreider. De ons high tea is € 19,50, de ons high tea royale is
 € 24,50. Uiteraard kunt u kiezen uit diverse geurige theesoorten.
 
 

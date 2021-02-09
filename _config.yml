@@ -13,7 +13,7 @@ description: Alles over deeg.
 avatar: /build/img/logo.svg
 
 # Default image to use in open graph when no image is on the page
-image: ZENZEZ_SEMIFREDDO_EN_DESSERTWIJN.jpg
+image: brood.jpg
 
 #
 # Flags below are optional
@@ -22,7 +22,7 @@ image: ZENZEZ_SEMIFREDDO_EN_DESSERTWIJN.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: marten.chaillet@gmail.com
+  email: marten.chaillet@gmail.com  
   facebook:
   flickr:
   github:

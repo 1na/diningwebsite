@@ -1,13 +1,6 @@
-# Decomissioned
-The website that this was written for has been decomissioned.
+# Forked of Jekyll now
 
-# Fork of Jekyll now
-
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
-
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
-
-This fork is for a website in production. 
+This is technically not a fork anymore. 
 
 ## Quick Start
 
